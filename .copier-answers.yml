@@ -9,6 +9,6 @@ kind: frontend
 labextension_name: detect-duplicate-cells
 project_short_description: A JupyterLab extension to detect duplicate cells for nbgrader.
 python_name: detect_duplicate_cells
-repository: ''
+repository: https://github.com/AaltoSciComp/detect-duplicate-cells
 test: false
 

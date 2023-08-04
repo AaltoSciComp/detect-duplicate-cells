@@ -7,9 +7,9 @@
         "jupyterlab",
         "jupyterlab-extension"
     ],
-    "homepage": "",
+    "homepage": "https://github.com/AaltoSciComp/detect-duplicate-cells",
     "bugs": {
-        "url": "/issues"
+        "url": "https://github.com/AaltoSciComp/detect-duplicate-cells/issues"
     },
     "license": "BSD-3-Clause",
     "author": {
@@ -25,7 +25,7 @@
     "style": "style/index.css",
     "repository": {
         "type": "git",
-        "url": ".git"
+        "url": "https://github.com/AaltoSciComp/detect-duplicate-cells.git"
     },
     "scripts": {
         "build": "jlpm build:lib && jlpm build:labextension:dev",
@@ -54,7 +54,9 @@
         "watch:labextension": "jupyter labextension watch ."
     },
     "dependencies": {
-        "@jupyterlab/application": "^4.0.0"
+        "@jupyterlab/application": "^4.0.0",
+        "@jupyterlab/apputils": "^4.1.4",
+        "@jupyterlab/notebook": "^4.0.4"
     },
     "devDependencies": {
         "@jupyterlab/builder": "^4.0.0",

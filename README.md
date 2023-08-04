@@ -1,8 +1,8 @@
 # detect_duplicate_cells
 
-[![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/AaltoSciComp/detect-duplicate-cells/workflows/Build/badge.svg)](https://github.com/AaltoSciComp/detect-duplicate-cells/actions/workflows/build.yml)
 A JupyterLab extension to detect duplicate cells for nbgrader.
-
+Whenever a new cell is added, all `grade_id`s are checked for duplicates.
 
 ## Requirements
 
